@@ -1,0 +1,68 @@
+/* styles.css */
+
+body {
+    background-image: url(Living\ Room\ Colour\ Scheme.webp);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #000000; /* Text color */
+    background-color: #6b9bc6; /* Background color */
+    padding: 10px; /* Adds space around the text inside the background */
+    display: inline-block; /* Makes the background color cover only the text */
+    border-radius: 5px; /* Optional: rounds the corners of the background */
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url();
+    backdrop-filter: blur(10px);
+    opacity: 0.8;
+}
+
+label {
+    color: #000000;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+}
+
+h3 {
+    color: #000000; /* Text color */
+    background-color: #5e9dd3; /* Background color */ /* Adds space around the text inside the background */
+    display: inline-block; /* Makes the background color cover only the text */
+    
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+    <link rel="icon" href="png-clipart-human-intellect-illustration-artificial-intelligence-deep-learning-machine-learning-computer-icons-artificial-neural-network-technology-electronics-text-thumbnail.png" type="image/png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <center>
+    <h2>House Price Prediction</h2></center>
+    <form action="/predict" method="post">
+        <label for="beds">Bedrooms:</label><br>
+        <input type="number" id="beds" name="beds"><br><br>
+        <label for="baths">Bathrooms:</label><br>
+        <input type="number" id="baths" name="baths"><br><br>
+        <label for="size">Size (sq ft):</label><br>
+        <input type="number" id="size" name="size"><br><br>
+        <label for="lot_size">Lot Size (sq ft):</label><br>
+        <input type="number" id="lot_size" name="lot_size"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+    <center>
+    <h3>{{ prediction_text }}</h3></center>
+</body>
+</html>
